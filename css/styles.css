@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,400,700);
+/*font-family: 'Raleway', sans-serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400);
+/*font-family: 'Open Sans', sans-serif;*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;	
+	/* upper-alpha | upper-roman | upper-latin | disc | circle | square | url(../images/ser1.png) */
+}
+p{
+	font-family: 'Open Sans', sans-serif;	
+}
+.contenedor-inicial{
+	height: 900px;
+	/*
+	background-image: url(../images/indexbanner-bg3.jpg);
+	/* Aplicar imagenes de fondo*/
+	/*
+	background-position: center top;
+	/* Centrar la imagenes de fondo
+		coordenada x:
+		coordenada y;
+	*/
+	/*
+	background-repeat: no-repeat;
+	/* Repeticion de la imagenes de fondo
+		vertical y horizontal
+		repeat | no-repeat | repeat-x | repeate-y		
+	*/
+	/*
+	background-attachment: scroll;
+	/* Desplazamiento de la imagene de fondo cuando se hace scroll		
+		scroll | fixed
+	*/	
+	background: url(../images/indexbanner-bg3.jpg) no-repeat center top scroll;
+	/* Con background se puede escribir todas las propiedades del background en una sola linea*/
+}
+.regular-updates{
+	color: white;
+}
+.regular-updates p{
+	color: rgb(194,183,152);
+}
+.servicios-destacados article{
+	text-align: center;
+}
+.img-precios{
+	height: 573px;
+	background: url(../images/pricing-bg.jpg) no-repeat center top scroll;
+	text-align: center;
+}
+.pie-de-pagina{
+	background-color: rgb(21,29,38);
+	color: white;
+}
+.hosting span{	
+	color: rgb(0,175,241);	
+}
+.hosting{
+	background-color: rgb(35,49,65);
+	text-align: center;
+	color: white;
+}
